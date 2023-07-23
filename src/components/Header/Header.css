@@ -1,0 +1,23 @@
+
+header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+header.light-theme {
+    background-color: #E0F2FE;
+    color: #0C4A6E;
+}
+
+header.dark-theme {
+    background-color: #075985;
+    color: #E0F2FE;
+    
+}
+
+header > h1 {
+    margin: 0;
+}

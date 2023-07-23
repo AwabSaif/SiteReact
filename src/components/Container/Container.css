@@ -1,0 +1,21 @@
+
+.container {
+    height: 100vh;
+    text-align: center;
+    
+}
+
+main {
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.container.dark-theme {
+    background-color: #0C4A6E;
+    color: #F0F9FF;
+}
+
+.container.light-theme {
+    background-color: #F0F9FF;
+    color: #0C4A6E;
+}
